@@ -42,19 +42,13 @@ for _ in range(n_simulations):
         prob_a = lambda_a * dt
         rand_a = np.random.uniform()
 
-        if prob_b >= rand_b and prob_a >= rand_a:
-            x += ask - bid
-
-        elif prob_b < rand_b and prob_a >= rand_a:
-            x += ask
-            q -= 1
-
-        elif prob_b >= rand_b and prob_a < rand_a:
+        if prob_b >= rand_b:
             x -= bid
             q += 1
 
-        elif prob_b < rand_b and prob_a < rand_a:
-            pass
+        if prob_a >= rand_a:
+            x += ask
+            q -= 1
 
     profit.append(x + q * s)
     final_q.append(q)
