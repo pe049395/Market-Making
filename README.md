@@ -1,6 +1,6 @@
 # Market-Making
 
-Market making via Avellaneda & Stoikov model, Gueant & Lehalle & Fernandez-Tapia model, reinforcement learning. The full code is not open source as it is used for actual market making urposes.
+Market making via Avellaneda & Stoikov model, Gueant & Lehalle & Fernandez-Tapia model, reinforcement learning. The full code is not public as it is used for actual market making purposes.
 
 ## Trading Record
 
