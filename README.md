@@ -1,5 +1,7 @@
 # Market-Making
 
+The repository includes concepts for market making. It does not contain actual trading codes, as it is intended for real trading applications.
+
 ## Trading Record
 
 ![1](https://github.com/pe049395/Market-Making/blob/a92b80a03b8cebdc98f0399b80551f03f6eccb61/PnL.png)
